@@ -4,6 +4,7 @@ import { trpc } from "../utils/trpc";
 import { customAlphabet } from "nanoid";
 import { useRouter } from "next/router";
 import Layout from "./components/layout";
+import Footer from "./components/footer";
 
 const nanoid = customAlphabet("abcdefghijklmnopqrstuvqxyz0123456789", 4);
 
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
       <Layout />
 
       <main className="container mx-auto flex flex-col items-center justify-center h-screen p-4"></main>
+      <Footer />
     </>
   );
 };

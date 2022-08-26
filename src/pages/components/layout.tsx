@@ -21,13 +21,21 @@ const Layout: NextPage = () => {
 
       <aside className="w-64" aria-label="Sidebar">
         <div className="overflow-y-auto py-4 px-3 bg-gray-50 rounded dark:bg-gray-800">
-          <Image
-            className="rounded sm:mx-0 sm:flex-shrink-0"
-            src="/zanas.png"
-            alt="ZaNas Logo"
-            width={230}
-            height={120}
-          />
+          <a
+            href="https://flowbite.com/"
+            className="flex items-center pl-2.5 mb-5"
+          >
+            <Image
+              className="mr-3 h-6 sm:h-7"
+              src="/zanas.png"
+              alt="ZaNas Logo"
+              width={120}
+              height={60}
+            />
+            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+              Zanas
+            </span>
+          </a>
           <div className="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
             <Image
               className="block mx-auto h-24 rounded-full sm:mx-0 sm:flex-shrink-0"
@@ -41,6 +49,45 @@ const Layout: NextPage = () => {
                 <p className="text-lg text-black font-semibold">Nicky</p>
                 <p className="text-gray-500 font-medium">Verified</p>
               </div>
+              <div className="inline-flex">
+                <svg
+                  aria-hidden="true"
+                  className="w-5 h-5 text-yellow-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Rating star</title>
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  className="w-5 h-5 text-yellow-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Rating star</title>
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                </svg>
+                <svg
+                  aria-hidden="true"
+                  className="w-5 h-5 text-yellow-400"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>Rating star</title>
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                </svg>
+              </div>
+              <span className="w-1 h-1 mx-1.5 bg-gray-500 rounded-full dark:bg-gray-400"></span>
+              <a
+                href="#"
+                className="text-sm font-medium text-gray-900 underline hover:no-underline dark:text-white"
+              >
+                73 reviews
+              </a>
             </div>
           </div>
           <ul className="space-y-2">
@@ -121,7 +168,7 @@ const Layout: NextPage = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span className="flex-1 ml-3 whitespace-nowrap">Users</span>
+                <span className="flex-1 ml-3 whitespace-nowrap">Friends</span>
               </a>
             </li>
             <li>
@@ -210,11 +257,52 @@ const Layout: NextPage = () => {
                   className="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2"
                   onClick={createRoom}
                 >
-                  Create a Chatroom
+                  Create a Room
                 </button>
               </a>
             </li>
           </ul>
+          <div
+            id="dropdown-cta"
+            className="p-4 mt-6 bg-blue-50 rounded-lg dark:bg-blue-900"
+            role="alert"
+          >
+            <div className="flex items-center mb-3">
+              <span className="bg-orange-100 text-orange-800 text-sm font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-orange-200 dark:text-orange-900">
+                Beta
+              </span>
+              <button
+                type="button"
+                className="ml-auto -mx-1.5 -my-1.5 bg-blue-50 text-blue-900 rounded-lg focus:ring-2 focus:ring-blue-400 p-1 hover:bg-blue-200 inline-flex h-6 w-6 dark:bg-blue-900 dark:text-blue-400 dark:hover:bg-blue-800"
+                data-collapse-toggle="dropdown-cta"
+                aria-label="Close"
+              >
+                <span className="sr-only">Close</span>
+                <svg
+                  aria-hidden="true"
+                  className="w-4 h-4"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <p className="mb-3 text-sm text-blue-900 dark:text-blue-400">
+              This is just a beta dashboard navigation! You can
+            </p>
+            <a
+              className="text-sm text-blue-900 underline hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
+              href="#"
+            >
+              Beta Testing
+            </a>
+          </div>
         </div>
       </aside>
     </>

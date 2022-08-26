@@ -294,7 +294,7 @@ const Layout: NextPage = () => {
               </button>
             </div>
             <p className="mb-3 text-sm text-blue-900 dark:text-blue-400">
-              This is just a beta dashboard navigation! You can
+              This is just a beta dashboard navigation!
             </p>
             <a
               className="text-sm text-blue-900 underline hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"

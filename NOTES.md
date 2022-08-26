@@ -1,3 +1,6 @@
-yarn add ws nanoid node-fetch@2.6.1
+1- The Create a Chatroom
 
-yarn add @types/ws npm-run-all @types/cookie @types/node-fetch@2.5.11 ts-node-dev dotenv -D
+- Create a room
+- Shareable Chat Id
+- Screen Shots capability
+- gifs and all other features

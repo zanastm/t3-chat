@@ -2510,7 +2510,7 @@
     "ts-node" "^10.4.0"
     "tsconfig" "^7.0.0"
 
-"ts-node@^10.4.0", "ts-node@>=9.0.0":
+"ts-node@^10.4.0":
   "integrity" "sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw=="
   "resolved" "https://registry.npmjs.org/ts-node/-/ts-node-10.9.1.tgz"
   "version" "10.9.1"
@@ -2578,7 +2578,12 @@
   "resolved" "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
   "version" "0.20.2"
 
-"typescript@*", "typescript@>=2.7", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta", "typescript@>=3.3.1", "typescript@4.7.4":
+"typescript@*", "typescript@^4.9.0-dev.20220825", "typescript@>=2.7", "typescript@>=3.3.1":
+  "integrity" "sha512-X6bFdJycFPfp4CC8RqOZkCQauNIayamosrtovm6UlCjez9AKMQ1TQJiwReDybks9TGHR3LegEIvLIMWj+uiHYg=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.9.0-dev.20220825.tgz"
+  "version" "4.9.0-dev.20220825"
+
+"typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
   "integrity" "sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ=="
   "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.7.4.tgz"
   "version" "4.7.4"

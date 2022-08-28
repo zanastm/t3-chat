@@ -47,7 +47,6 @@ const Layout: NextPage = () => {
             <div className="text-center space-y-2 sm:text-left">
               <div className="space-y-0.5">
                 <p className="text-lg text-black font-semibold">Nicky</p>
-                <p className="text-gray-500 font-medium">Verified</p>
               </div>
               <div className="inline-flex">
                 <svg

@@ -4,12 +4,16 @@ import Layout from "./layout";
 
 const FullLayout = () => {
   return (
-    <div className="grid grid-rows-3 grid-flow-col gap-4">
+    <div className="grid grid-rows-3 grid-flow-col">
       <div className="row-span-3">
-        <Layout />
+        <div className="w-full">
+          <Layout />
+        </div>
       </div>
       <div className="col-span-2">
-        <Header />
+        <div className="w-full">
+          <Header />
+        </div>
       </div>
     </div>
   );

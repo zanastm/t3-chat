@@ -28,7 +28,7 @@ const Home: NextPage = () => {
       </Head>
       <div className="grid-container">
         {" "}
-        <div className="grid-cols-2"></div>
+        <div className=""></div>
         <FullLayout />
         <main className="container mx-auto flex flex-col items-center justify-center h-screen p-4"></main>
         <Footer />

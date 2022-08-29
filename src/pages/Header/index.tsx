@@ -8,15 +8,9 @@ const Headers = () => {
       <div className="m-2 p-2 text-violet-500"></div>
       <div className="grid grid-rows-3 grid-flow-col gap-4">
         <div className="row-span-3 ...">
-          <button className="rounded bg-red-600 text-white w-full">
-            Click Me
-          </button>
+          <button className="rounded bg-red-600 text-white">Click</button>
         </div>
-        <div className="col-span-2 ...">
-          <button className="flex w-full bg-green-600 text-white">
-            I will see you
-          </button>
-        </div>
+        <div className="col-span-2 ...">02</div>
         <div className="row-span-2 col-span-2 ...">03</div>
       </div>
 
